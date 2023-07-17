@@ -6,7 +6,7 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 
 
-# Data Processing
+# Data Preprocessing
 
 mnist_datasets, mnist_info = tfds.load(
     name='mnist', with_info=True, as_supervised=True)
